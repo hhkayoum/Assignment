@@ -1,0 +1,45 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+
+.header-section{
+       background-color: rgba(229, 84, 115, 0.10);
+}
+.header-container{
+       display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.header-img{
+       width: 435px;
+       height: 600px;
+}
+.header-titel-area{
+       margin: 197px 80px 190px 240px;
+}
+.header-img-section{
+       margin: 50px 140px 0 0px;
+}
+.header-titel{
+       font-size:50px;
+       font-weight: bold;
+       padding-bottom: 30px;
+}
+.word-color{
+       color: #E55473;
+}
+.header-description{
+       color: rgba(39, 39, 39, 0.60);
+       font-size: 18px;
+       font-weight: 300;
+       line-height: 26px;
+}
+.primary-btn{
+       color: white;
+       background-color: #E55473;
+       padding: 10px 16px;
+       border: none;
+       margin: 15px 15px 15px 0;
+       border-radius: 8px;
+}
