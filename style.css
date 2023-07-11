@@ -2,7 +2,7 @@
        margin: 0;
        padding: 0;
 }
-
+/* header style start */
 .header-section{
        background-color: rgba(229, 84, 115, 0.10);
 }
@@ -16,10 +16,10 @@
        height: 600px;
 }
 .header-titel-area{
-       margin: 197px 80px 190px 240px;
+       margin: 197px 80px 190px 160px;
 }
 .header-img-section{
-       margin: 50px 140px 0 0px;
+       margin: 50px 120px 0 0px;
 }
 .header-titel{
        font-size:50px;
@@ -41,5 +41,195 @@
        padding: 10px 16px;
        border: none;
        margin: 15px 15px 15px 0;
+       /* border-radius: 8px; */
+       border-top-left-radius: 10px;
+}
+
+/* menu style start */
+.featured-section{
+       /* width: 82%; */
+       width: 85%;
+       text-align: center;
+       margin: 80px auto 0 auto;
+}
+.featured-section-titel{
+       font-size:40px;
+       font-weight: bold;
+       padding-bottom: 30px;
+}
+.featured-description{
+       color: rgba(39, 39, 39, 0.60);
+       font-size: 18px;
+       font-weight: 300;
+       line-height: 26px;
+}
+.featured-card-container{
+       display: flex;
+       justify-content: center;
+       gap: 35px;
+       margin-top: 50px;
+}
+.featured-card {
+       width: 380px;
+       height: 420px;
+       padding: 50px 35px 0 35px;
+        border-radius: 300px 300px 0px 0px; 
+}
+.featured-card img{
+       width: 100%;
+       height: 100%;     
+}
+.card-a{
+       background: rgba(167, 33, 98, 0.15);
+}
+.card-b{
+       background: rgba(5, 151, 160, 0.15);
+}
+.card-c{
+       background: rgba(71, 125, 17, 0.15);
+}
+.featured-card-link{
+       display: flex;
+       justify-content: center;
+}
+.card-link{
+       width: 380px;
+       height: 20px;
+       padding: 20px;
+}
+
+/* support section start */
+
+.delivery-information-section{
+       display: flex;
+       justify-content: space-around;
        border-radius: 8px;
+       background: rgba(39, 39, 39, 0.05);
+       margin:100px auto;
+       padding: 30px ;
+       width: 82%;
+}
+.delivery-information{
+       text-align: center;
+}
+/* offer section start */
+
+.offer-container{
+       border-radius: 8px;
+       background: rgba(229, 84, 115, 0.05);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.offer-detail{
+       text-align: center;
+       margin-right: 150px;
+}
+.offer-titel{
+       color: #272727;
+       font-size: 40px;
+       font-weight: 800;
+       padding: 15px;
+}
+.offer-description{
+       color: rgba(39, 39, 39, 0.60);
+       text-align: center;
+       padding: 15px;
+       font-size: 18px;
+       font-weight: 300;
+       line-height: 26px;
+}
+.button{
+       color: white;
+       background-color: #E55473;
+       padding: 10px 16px;
+       border: none;
+       margin: 15px 15px 15px 0;
+       /* border-radius: 8px; */
+       border-top-left-radius:8px;
+}
+.offer-img{
+       padding: 50px;
+}
+
+/* card section style start */
+.card-section{
+       width: 100vw;
+}
+      
+.card-titel{
+       color: #272727;
+       text-align: center;
+       font-size: 40px;;
+       font-weight: 800;
+       margin-top: 80px;
+       padding: 15px;
+}
+.card-description{
+       color: rgba(39, 39, 39, 0.60);
+       text-align: center;
+       font-size: 18px;
+       font-weight: 300;
+       line-height: 26px;
+       margin: 20px;
+ }
+.card-container{
+       display: flex;
+       justify-content: space-around;
+       width: 82%;
+       gap: 10px; 
+       margin: 0 auto;
+} 
+.card{
+       height: 320px;
+       width: 280px;
+       border-radius: 5px;
+       margin-top: 40px;
+}
+.card img{
+       width: 100%;
+       height: 100%;
+}
+/* user information section started */
+.user-nform{
+       /* width: 82%; */
+       text-align: center;
+       margin: 80px auto;
+       background-image: url('./Rectangle\ 9.png');
+       width: 82%;
+       height: 400px;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+     
+#email{
+       padding: 5px 300px 5px 5px;
+       border: none;
+       border-radius: 8px;
+}
+/* footer section start */
+footer{
+       height: 400px;
+       background-color: black;
+       color: white;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.footer-section h2{
+       font-size: 48px;
+       font-weight: 800;
+       padding: 15px;
+}
+.footer-section p{
+       color: rgba(255, 255, 255, 0.90);
+       font-size: 18px;
+       font-weight: 300;
+       line-height: 26px;
+       margin: 10px 0 35px 0;
 }
