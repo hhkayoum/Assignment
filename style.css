@@ -2,6 +2,9 @@
        margin: 0;
        padding: 0;
 }
+body{
+       width: 100vw;
+}
 /* header style start */
 .header-section{
        background-color: rgba(229, 84, 115, 0.10);
@@ -41,14 +44,12 @@
        padding: 10px 16px;
        border: none;
        margin: 15px 15px 15px 0;
-       /* border-radius: 8px; */
-       border-top-left-radius: 10px;
+       padding: 10px 15px;
+       border-radius: 3px;
 }
 
 /* menu style start */
 .featured-section{
-       /* width: 82%; */
-       width: 85%;
        text-align: center;
        margin: 80px auto 0 auto;
 }
@@ -67,7 +68,7 @@
        display: flex;
        justify-content: center;
        gap: 35px;
-       margin-top: 50px;
+       margin: 50px 110px 0 110px;
 }
 .featured-card {
        width: 380px;
@@ -88,9 +89,11 @@
 .card-c{
        background: rgba(71, 125, 17, 0.15);
 }
+/* featured style start */
 .featured-card-link{
        display: flex;
        justify-content: center;
+       text-decoration: underline;
 }
 .card-link{
        width: 380px;
@@ -105,12 +108,14 @@
        justify-content: space-around;
        border-radius: 8px;
        background: rgba(39, 39, 39, 0.05);
-       margin:100px auto;
+       margin:100px 110px 80px 110px;
        padding: 30px ;
-       width: 82%;
 }
 .delivery-information{
        text-align: center;
+}
+.delivery-information p{
+       color: rgba(39, 39, 39, 0.80);
 }
 /* offer section start */
 
@@ -142,11 +147,10 @@
 .button{
        color: white;
        background-color: #E55473;
-       padding: 10px 16px;
+       padding: 10px 15px;
        border: none;
        margin: 15px 15px 15px 0;
-       /* border-radius: 8px; */
-       border-top-left-radius:8px;
+      border-radius: 3px;
 }
 .offer-img{
        padding: 50px;
@@ -155,8 +159,7 @@
 /* card section style start */
 .card-section{
        width: 100vw;
-}
-      
+}     
 .card-titel{
        color: #272727;
        text-align: center;
@@ -176,9 +179,8 @@
 .card-container{
        display: flex;
        justify-content: space-around;
-       width: 82%;
        gap: 10px; 
-       margin: 0 auto;
+       margin: 0 110px 0 110px;
 } 
 .card{
        height: 320px;
@@ -192,11 +194,9 @@
 }
 /* user information section started */
 .user-nform{
-       /* width: 82%; */
        text-align: center;
-       margin: 80px auto;
+       margin: 80px 110px 80px 110px;
        background-image: url('./Rectangle\ 9.png');
-       width: 82%;
        height: 400px;
        background-position: center;
        background-repeat: no-repeat;
@@ -205,11 +205,31 @@
        align-items: center;
        justify-content: center;
 }
-     
+.user-inform h2{
+       color: #272727;
+       font-size: 40px;;
+       font-weight: 800;
+       padding-top: 35px;
+}
+.user-inform p{
+       font-size: 18px;
+       font-weight: 300; 
+       padding: 15px 0 35px 0;
+       color: rgba(39, 39, 39, 0.60);
+}    
 #email{
-       padding: 5px 300px 5px 5px;
+       padding: 10px 300px 10px 10px;
        border: none;
-       border-radius: 8px;
+       border-radius: 2px;
+       color: rgba(39, 39, 39, 0.60);
+}
+.button-a{
+       background-color: #E55473;
+       padding: 10px 15px ;
+       margin-left: 20px;
+       border: none;
+       border-radius: 3px;
+       color: white;
 }
 /* footer section start */
 footer{
