@@ -4,6 +4,7 @@
 }
 body{
        width: 100vw;
+       font-family: 'Open Sans', sans-serif;
 }
 /* header style start */
 .header-section{
@@ -230,6 +231,50 @@ body{
        border: none;
        border-radius: 3px;
        color: white;
+}
+/* extra section */
+.bonus-section{
+       display: flex;
+       gap: 40px;
+       justify-content: center;
+       text-align: center;
+       height:80vh;
+       flex-direction: row-reverse;
+}
+.feedback-titel{
+       margin-top: 60px;
+}
+.feedback-titel h2{
+       color: #272727;
+       font-size: 40px;
+       font-weight: 800;
+       padding: 15px;
+}
+.feedback-titel p{
+       color: rgba(39, 39, 39, 0.60);
+       text-align: center;
+       padding: 15px;
+       font-size: 18px;
+       font-weight: 300;
+       line-height: 26px;
+}
+.customer-pic{
+       width: 280px;
+       height: 100px;
+       margin-top: 80px;     
+}
+.customer-pic img{
+       width: 100%;
+       border-radius: 50%;
+       
+}
+.buttonB{
+       background-color: #E55473;
+       color: white;
+       border-radius: 3px;
+       padding: 10px 12px;
+       border: none;
+       margin: 10px auto;
 }
 /* footer section start */
 footer{
